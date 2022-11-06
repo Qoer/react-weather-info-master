@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-weather-info-master/static/css/main.eee7818d.css",
+    "main.js": "/react-weather-info-master/static/js/main.2d319ed7.js",
+    "static/media/cloud.png": "/react-weather-info-master/static/media/cloud.93ea380a4d88cb8d7cf1.png",
+    "index.html": "/react-weather-info-master/index.html",
+    "main.eee7818d.css.map": "/react-weather-info-master/static/css/main.eee7818d.css.map",
+    "main.2d319ed7.js.map": "/react-weather-info-master/static/js/main.2d319ed7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eee7818d.css",
+    "static/js/main.2d319ed7.js"
+  ]
+}
