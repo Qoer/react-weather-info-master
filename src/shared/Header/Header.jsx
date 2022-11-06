@@ -66,9 +66,6 @@ export const Header = ({ setCity }) => {
     // eslint-disable-next-line
   }, []);
 
-  const handleChange = (selectedOption, actionMeta) => {
-    console.log("handleChange", selectedOption, actionMeta);
-  };
   const handleInputChange = (inputValue, actionMeta) => {
     console.log("handleInputChange", inputValue, actionMeta);
   };
@@ -85,15 +82,6 @@ export const Header = ({ setCity }) => {
         <div className={s.change_theme} onClick={changeTheme}>
           <ChangeTheme id="change-theme" />
         </div>
-        {/* <Select
-          defaultValue={options[0]}
-          styles={colourStyles}
-          options={options}
-          onChange={(x) => {
-            dispatch(fetchCurrentWeather(x.label));
-            setCity({ q: `${x.label}` });
-          }}
-        /> */}
         <CreatableSelect
           defaultValue={options[0]}
           options={options}

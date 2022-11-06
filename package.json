@@ -1,8 +1,8 @@
 {
-  "name": "react-weather",
+  "name": "c",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://naf-fly.github.io/react-weather-info/",
+  "homepage": "https://qoer.github.io/react-weather-info-master/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -44,5 +44,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "![image](https://user-images.githubusercontent.com/53238795/197896705-d6b90d74-ebe7-4587-8dd4-6d6aa370ff6a.png) Используемый стек технологий: - JavaScript - HTML и препроцессор SCSS - Библиотека React - React Hooks (useState, useEffect) - Библиотека Axios (представляет собой HTTP-клиент) для обращения к API погоды - Библиотека Redux — предназначенная для управления состоянием приложения. (пока использовал по минимуму, потому что для понимания сложновато пока что) - React Select (для выпадающего списка), пока что не до конца работает - API от openweathermap.org (отсюда приходят данные о погоде) - Media queries (для адаптива) # Демо: https://naf-fly.github.io/react-weather-info/",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qoer/react-weather-info-master.git"
+  },
+  "author": "Qoer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qoer/react-weather-info-master/issues"
   }
 }
