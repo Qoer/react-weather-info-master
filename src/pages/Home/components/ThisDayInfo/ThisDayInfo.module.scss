@@ -1,0 +1,112 @@
+@import "../../../../styles/variables.scss";
+
+.this__day_info {
+  position: relative;
+  padding: 40px;
+  max-width: 750px;
+  width: 100%;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  background: var(#{--components-background-default});
+  z-index: -1;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 25px;
+  z-index: -1;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .indicator,
+  .indicator__name {
+    margin-right: 20px;
+  }
+
+  .indicator {
+    width: 38px;
+    height: 38px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
+    border-radius: 50%;
+  }
+
+  .indicator__name,
+  .indicator__value {
+    font-size: 14px;
+  }
+  .indicator__name {
+    color: var(#{--text-color-default});
+  }
+  .indicator__value {
+    color: var(#{--text-color-default});
+  }
+}
+
+.cloud__img {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .cloud__img {
+    display: none;
+  }
+
+  .this__day_info {
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .item {
+    .indicator {
+      width: 30px;
+      height: 30px;
+    }
+
+    .indicator__name,
+    .indicator__value {
+      font-size: 12px;
+    }
+
+    .indicator__value {
+      position: absolute;
+      width: 50%;
+      right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .cloud__img {
+    display: none;
+  }
+
+  .this__day_info {
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .item {
+    .indicator {
+      width: 30px;
+      height: 30px;
+    }
+
+    .indicator__value {
+      position: absolute;
+      width: 50%;
+      right: 0;
+    }
+  }
+}

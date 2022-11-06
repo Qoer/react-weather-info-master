@@ -1,0 +1,14 @@
+.home {
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width : 800px) {
+  .wrapper {
+    margin-bottom: 30px;
+  }
+}
