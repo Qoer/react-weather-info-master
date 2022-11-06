@@ -10,6 +10,6 @@
 - React Select (для выпадающего списка), пока что не до конца работает
 - API от openweathermap.org (отсюда приходят данные о погоде)
 - Media queries (для адаптива)
-# Демо: https://naf-fly.github.io/react-weather-info/
+# Демо: https://qoer.github.io/react-weather-info-master/
 
 
