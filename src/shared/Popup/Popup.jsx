@@ -10,8 +10,6 @@ export const Popup = ({ click, setClick, forecast, city, cardInfo }) => {
     return this[0].toUpperCase() + this.slice(1);
   };
 
-  console.log(cardInfo);
-
   const { weather } = useCustomSelector(selectCurrentWeatherData);
 
   const time = weather.dt;
